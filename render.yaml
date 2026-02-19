@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: pla-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python pla_bot.py
